@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+/* Custom Font Family */
+@layer base {
+  body {
+    font-family: "Josefin Sans", sans-serif; 
+  }
+}
+
+/* Optional: Custom classes */
+@layer utilities {
+  .font-Josefin {
+    font-family: "Josefin Sans", sans-serif; 
+  }
+
+  .font-Lato {
+    font-family: "Lato", sans-serif; 
+  }
+
+  .bg-primary {
+    background-color: #FB2E86; 
+  }
+
+  .text-primary {
+    color: #FB2E86; 
+  }
+
+  .border-primary {
+    border-color: #FB2E86; 
+  }
+}
