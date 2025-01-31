@@ -1,18 +1,18 @@
-import React from "react";
-import { Outlet } from "react-router-dom";
-import Header from "../Components/Header";
-import Navbar from "../Components/Navbar";
-import Footer from "../Components/Footer";
+import React from 'react'
+import Header from './Header'
+import Navbar from './Navbar'
+import Footer from './Footer'
+import { Outlet } from 'react-router-dom'
 
 const RootLayout = () => {
   return (
     <>
-      <Header />
-      <Navbar />
-      <Outlet />  {/* এখানে চাইল্ড রাউট পেজ দেখাবে */}
-      <Footer />
+      < Header/>
+      < Navbar/>
+      < Outlet/>
+      < Footer/>
     </>
-  );
-};
+  )
+}
 
-export default RootLayout;
+export default RootLayout

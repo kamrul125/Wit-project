@@ -2,6 +2,7 @@ import React from 'react'
 
 import Hekto from '../assets/images/Hekto.png'
 import { CiSearch } from "react-icons/ci";
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
@@ -14,12 +15,12 @@ const Navbar = () => {
         </div>
         <div className="  ">
             <ul className='  flex items-center gap-10'>
-                <li >Home </li>
-                <li> Page </li>
-                <li> Products</li>
-                <li>Blog</li>
-                <li> Shop </li>
-                <li> Contact </li>
+            <li><Link to="/">Home</Link></li>
+                <li><Link to="/ProductPage">Products</Link></li>
+                <li> Pages</li>
+                <li><Link to="/BlogPage">Blog</Link></li>
+                <li><Link to="/ShopPage">Shop</Link></li>
+                <li><Link to="/ContactPage">Contact</Link></li>
             </ul>
         </div>
         <div className=" flex items-center">
