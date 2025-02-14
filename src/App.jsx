@@ -8,6 +8,11 @@ import RootLayout from "./Components/RootLayout";
 import ShopPage from "./Pages/ShopPage";
 import BlogPage from './Pages/BlogPage';
 import ProductPage from "./Pages/ProductPage";
+import AboutPage from "./Pages/AboutPage";
+import AccountPage from "./Pages/AccountPage";
+import NfPage from "./Pages/NfPage";
+import OrderPage from "./Pages/OrderPage";
+
 
 function App() {
   // Defining router configuration
@@ -19,7 +24,11 @@ function App() {
         <Route path="/ContactPage" element={<ContactPage />} />
         <Route path="/BlogPage" element={<BlogPage />} />
         <Route path="/ProductPage" element={< ProductPage />} />
-         
+        <Route path="/AboutPage" element={< AboutPage />} />
+        <Route path="/AccountPage" element={< AccountPage />} />
+        <Route path="/AccountPage" element={< AccountPage />} />
+        <Route path="/NfPage" element={< NfPage />} />
+        <Route path="/OrderPage" element={< OrderPage />} />
 
       </Route>
     )
